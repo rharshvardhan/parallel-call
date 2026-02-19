@@ -448,3 +448,9 @@ async def generate_blueprint_v3(intake: UseCaseIntake) -> BlueprintV3:
     # Merge all 3 dicts into one and build the blueprint
     parsed = {**group1, **group2, **group3}
     return _build_blueprint(parsed)
+
+
+# =============================================================================
+# check
+# =============================================================================
+
